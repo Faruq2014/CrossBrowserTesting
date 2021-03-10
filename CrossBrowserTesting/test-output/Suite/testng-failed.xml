@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="2" name="EdgeTest(failed)" parallel="tests">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="com.ParallelCrossBrwser.SingleTest">
+        <methods>
+          <include name="setupBrowser"/>
+          <include name="workDayTest"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.ParallelCrossBrwser.SingleTest -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+  <test thread-count="2" name="CTest(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.ParallelCrossBrwser.SingleTest">
+        <methods>
+          <include name="setupBrowser"/>
+          <include name="workDayTest"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.ParallelCrossBrwser.SingleTest -->
+    </classes>
+  </test> <!-- CTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

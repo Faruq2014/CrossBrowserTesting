@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Firefox Suite">
+
+  <test  name="Latest Version Test">
+  <parameter name="FirefoxBrowserVersion" value="latest"></parameter>
+    <classes>
+      <class name="com.ParallelFirefoxCrossVersion.FirefoxTest"/>
+    </classes>
+  </test>
+   <!-- Test -->
+   
+   <test  name="82.0 Version Test">
+  <parameter name="FirefoxBrowserVersion" value="82.0"></parameter>
+    <classes>
+      <class name="com.ParallelFirefoxCrossVersion.FirefoxTest"/>
+    </classes>
+  </test>
+   <!-- Test -->
+</suite> <!-- Suite -->

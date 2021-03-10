@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Chrome Cross Version Test Suite">
+ <test  name="Latest version Test">
+  <parameter name="ChromeDriverVersion" value="latest" />
+    <classes>
+      <class name="com.ParallelChromeCrossVersion.ChromeVersionTest"/>
+    </classes>
+  </test> 
+  <!-- Test -->
+  
+   <test  name="2.26 version Test">
+  <parameter name="ChromeDriverVersion" value="2.26" />
+    <classes>
+      <class name="com.ParallelChromeCrossVersion.ChromeVersionTest"/>
+    </classes>
+  </test> 
+  <!-- Test -->
+ 
+  <test  name="2.40 version Test">
+  <parameter name="ChromeDriverVersion" value="2.40" />
+    <classes>
+      <class name="com.ParallelChromeCrossVersion.ChromeVersionTest"/>
+    </classes>
+  </test> 
+  <!-- Test -->
+  
+   <test  name="2.44 version Test">
+  <parameter name="ChromeDriverVersion" value="2.44" />
+    <classes>
+      <class name="com.ParallelChromeCrossVersion.ChromeVersionTest"/>
+    </classes>
+  </test> 
+  <!-- Test -->
+  
+  
+   <test  name="86 version Test">
+  <parameter name="ChromeDriverVersion" value="86" />
+    <classes>
+      <class name="com.ParallelChromeCrossVersion.ChromeVersionTest"/>
+    </classes>
+  </test> 
+  <!-- Test -->
+  
+   <test  name="87 version Test">
+  <parameter name="ChromeDriverVersion" value="87" />
+    <classes>
+      <class name="com.ParallelChromeCrossVersion.ChromeVersionTest"/>
+    </classes>
+  </test> 
+  <!-- Test -->
+  
+  
+  
+  
+  
+  
+</suite> <!-- Suite -->

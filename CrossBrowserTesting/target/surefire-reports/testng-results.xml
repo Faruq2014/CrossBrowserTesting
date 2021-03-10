@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke Suite" duration-ms="251905" started-at="2020-12-01T09:36:06 EST" finished-at="2020-12-01T09:40:18 EST">
+    <groups>
+    </groups>
+    <test name="Crome browser Test" duration-ms="147214" started-at="2020-12-01T09:36:06 EST" finished-at="2020-12-01T09:38:34 EST">
+      <class name="com.ParallelCrossBrwser.SingleTest">
+        <test-method status="PASS" signature="setupBrowser(java.lang.String)[pri:0, instance:com.ParallelCrossBrwser.SingleTest@5383967b]" name="setupBrowser" is-config="true" duration-ms="66508" started-at="2020-12-01T09:36:06 EST" finished-at="2020-12-01T09:37:13 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="workDayTest()[pri:1, instance:com.ParallelCrossBrwser.SingleTest@5383967b]" name="workDayTest" duration-ms="49880" started-at="2020-12-01T09:37:13 EST" finished-at="2020-12-01T09:38:03 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- workDayTest -->
+        <test-method status="PASS" signature="test()[pri:2, instance:com.ParallelCrossBrwser.SingleTest@5383967b]" name="test" duration-ms="23765" started-at="2020-12-01T09:38:03 EST" finished-at="2020-12-01T09:38:27 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ParallelCrossBrwser.SingleTest@5383967b]" name="teardown" is-config="true" duration-ms="6887" started-at="2020-12-01T09:38:27 EST" finished-at="2020-12-01T09:38:34 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ParallelCrossBrwser.SingleTest -->
+    </test> <!-- Crome browser Test -->
+    <test name="Edge Test" duration-ms="104447" started-at="2020-12-01T09:38:34 EST" finished-at="2020-12-01T09:40:18 EST">
+      <class name="com.ParallelCrossBrwser.SingleTest">
+        <test-method status="PASS" signature="setupBrowser(java.lang.String)[pri:0, instance:com.ParallelCrossBrwser.SingleTest@67b92f0a]" name="setupBrowser" is-config="true" duration-ms="44611" started-at="2020-12-01T09:38:34 EST" finished-at="2020-12-01T09:39:18 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="workDayTest()[pri:1, instance:com.ParallelCrossBrwser.SingleTest@67b92f0a]" name="workDayTest" duration-ms="44101" started-at="2020-12-01T09:39:18 EST" finished-at="2020-12-01T09:40:02 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- workDayTest -->
+        <test-method status="PASS" signature="test()[pri:2, instance:com.ParallelCrossBrwser.SingleTest@67b92f0a]" name="test" duration-ms="13681" started-at="2020-12-01T09:40:03 EST" finished-at="2020-12-01T09:40:16 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ParallelCrossBrwser.SingleTest@67b92f0a]" name="teardown" is-config="true" duration-ms="2047" started-at="2020-12-01T09:40:16 EST" finished-at="2020-12-01T09:40:18 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ParallelCrossBrwser.SingleTest -->
+    </test> <!-- Edge Test -->
+  </suite> <!-- Smoke Suite -->
+</testng-results>
